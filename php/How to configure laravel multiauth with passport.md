@@ -184,7 +184,8 @@ Content-Type application/json
 }
 ```
 
-Note: Access the *oauth_clients* table and use the client data you created earlier to fill the json body above.
+Note1: Access the * oauth_clients * table and use the client data (passport client) previously created to populate the json body above. The fields that must be filled in with this information are: grant_type, client_id, and client_secret.
+Note2: In the fields: username and password you must use a user created in the user table that you are validating.
 
 #### Used fonts:
 - https://github.com/laravel/passport/issues/161#issuecomment-299690583
