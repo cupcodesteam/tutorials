@@ -2,4 +2,4 @@
 Repository with some tutorials to solve the doubts we had!
 
 ### Languages:
-- [PHP](https://github.com/cupcodesteam/tutorials/php)
+- [PHP](https://github.com/cupcodesteam/tutorials/tree/master/php)
