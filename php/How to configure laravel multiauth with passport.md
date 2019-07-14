@@ -176,13 +176,15 @@ Content-Type application/json
 {
 
    "grant_type": "password",
-   "client_id": 1,
-   "client_secret": "yLz79iFZbJsNNc9SLsv5Ycex68LtlYsRrGR5gN5M",
+   "client_id": "here_is_the_client_id_you_created_earlier",
+   "client_secret": "here's_the_client_id_you_created_earlier",
    "username": "admin@gmail.com",
    "password": "teste123"
+   "theNewProvider": "here_is_the_guard_you_want"
 }
 ```
 
+Note: Access the *oauth_clients* table and use the client data you created earlier to fill the json body above.
 
 #### Used fonts:
 - https://github.com/laravel/passport/issues/161#issuecomment-299690583
